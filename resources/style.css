@@ -8,6 +8,7 @@ body {
     margin: 0px;
     font-family: Arial, sans-serif;
     color: #495057;
+    width: 100%;
 }
 
 header {
@@ -15,6 +16,17 @@ header {
     width: 100%;
     display: flex;
     align-content: center;
+    border-bottom: #DEE2E6 solid 1px;
+}
+
+#name {
+    display: flex;
+
+    align-items: center;
+}
+
+header h1 {
+    font-size: 32px;
 }
 
 header span {
@@ -29,4 +41,29 @@ a {
 
 #learn {
     background-color: #DEE2E6;
+}
+
+@media only screen and (min-width:768px) {
+    .mobile {
+        display: none;
+    }
+    
+    nav {
+        display: flex;
+        align-items: center;
+        margin-right: 24px;
+        justify-content: flex-end;
+        width: 100%;
+    }
+    
+    nav span {
+        padding-left: 16px;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .desktop {
+        display: none;
+    }
+
 }
