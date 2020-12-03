@@ -1,3 +1,32 @@
+/* 
+Main text: Dark Grey #495057
+Lighter Text: Grey #ADB5BD
+Backgroun: Light Grey #DEE2E6
+*/
+
 body {
     margin: 0px;
+    font-family: Arial, sans-serif;
+    color: #495057;
+}
+
+header {
+    height: 64px;
+    width: 100%;
+    display: flex;
+    align-content: center;
+}
+
+header span {
+    color: #ADB5BD;
+    font-weight: normal;
+}
+
+a {
+    text-decoration: none;
+    color: #495057;
+}
+
+#learn {
+    background-color: #DEE2E6;
 }
